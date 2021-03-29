@@ -1,0 +1,156 @@
+/**
+ * Custom Dracula theme
+ * Rofi version: 1.5.1
+ * Author: Nar Cuenca
+ **/
+
+* {
+    /* Custom colours */
+    dark-grey:             #282a36f2;
+    light-grey:            #44475a;
+    white:                 #f8f8f2;
+    blue-grey:             #6272a4;
+    cyan:                  #8be9fd;
+    green:                 #50fa7b;
+    orange:                #ffb86c;
+    pink:                  #ff79c6;
+    purple:                #bd93f9;
+    red:                   #ff5555;
+    yellow:                #f1fa8c;
+
+    /* Global properties */
+    background-color: rgba      (0,0,0, 0%);
+    font: "Ubuntu 24";
+}
+
+#window {
+    background-color: @dark-grey;
+    border:           0px 0 0;
+    border-color:     @light-grey;
+    border-radius:    0px;
+    padding:          0px;
+}
+
+#mainbox {
+    padding: 15;
+    border-radius:    0px;
+    margin: 35% 25% 0px 25%;
+    height: 300px;
+}
+
+#message {
+    border:       0;
+    border-color: @light-grey;
+    border-radius:    0px;
+    padding:      1px ;
+}
+
+#textbox {
+    text-color:   @white;
+}
+
+#listview {
+    fixed-height: 0;
+    spacing:      10px;
+    scrollbar:    false;
+    padding:      2px 0px 0px;
+}
+
+#element {
+    padding: 4px;
+}
+
+#element.normal.normal {
+    text-color:       @white;
+    border-radius:    0px;
+}
+
+#element.normal.urgent {
+    background-color: @red;
+    text-color:       @white;
+    border-radius:    8px;
+}
+
+#element.normal.active {
+    background-color: @blue-grey;
+    text-color:       @white;
+    border-radius:    8px;
+}
+
+#element.selected.normal {
+    background-color: @pink;
+    text-color:       @dark-grey;
+    border-radius:    8px;
+}
+
+#element.selected.urgent {
+    background-color: @orange;
+    text-color:       @dark-grey;
+    border-radius:    8px;
+}
+
+#element.selected.active {
+    background-color: @purple;
+    text-color:       @dark-grey;
+    border-radius:    8px;
+}
+
+#element.alternate.normal {
+    text-color:       @white;
+    border-radius:    8px;
+}
+
+#element.alternate.urgent {
+    background-color: @orange;
+    text-color:       @dark-grey;
+    border-radius:    8px;
+}
+
+#element alternate.active {
+    background-color: @cyan;
+    text-color:       @dark-grey;
+    border-radius:    8px;
+}
+
+#sidebar {
+    border:       0px solid 0px 0px;
+    border-color: @dark-grey;
+    spacing:    10;
+}
+
+#button {
+    spacing: 0;
+    background-color: @yellow;
+    text-color:       @dark-grey;
+    border-radius:    8px;
+}
+
+#button.selected {
+    background-color: @orange;
+    text-color:       @dark-grey;
+    border-radius:    8px;
+}
+
+#inputbar {
+    spacing:    10;
+    padding:    9px;
+    text-color: @white;
+}
+
+#inputbar {
+    spacing:    10;
+    padding:    5px;
+    text-color: @white;
+    children:   [ prompt,entry ];
+    border-radius:    8px;
+}
+
+#prompt {
+    spacing:    0;
+    text-color: @white;
+}
+
+#entry {
+    spacing:    0;
+    text-color: @white;
+}
