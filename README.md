@@ -9,7 +9,7 @@ Linux config files for my personal linux environment
 - i3lock-color
 - rofi
 - dunst
-- bash
+- zsh
 - polybar
 
 ## credits : theofficialnar 
