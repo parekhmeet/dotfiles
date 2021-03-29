@@ -12,6 +12,6 @@ Linux config files for my personal linux environment
 - bash
 - polybar
 
-##credits : theofficialnar 
+## credits : theofficialnar 
 
 -github link to his repo : https://github.com/theofficialnar/dotfiles
